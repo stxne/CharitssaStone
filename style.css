@@ -1,0 +1,117 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2F2F2;
+}
+
+@font-face {
+   font-family: Mondwest;
+   src: url(Mondest-Regular.otf);
+}
+
+@font-face {
+   font-family: NeueMachina;
+   src: url(NeueMachina-Regular.otf);
+}
+
+a{
+  text-decoration: none;
+  color: Black;
+}
+ul{
+  list-style-type: none;
+}
+
+.title{
+  font-size: 3vmin;
+  padding-right: 100vmin;
+}
+
+.header{
+  display: flex;
+  font-family: NeueMachina;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2vmin 5vmin 5vmin 5vmin;
+
+}
+
+.navLink{
+  font-size: 2vmin;
+  padding-left: 4vmin
+}
+
+h1{
+  font-family: Mondwest;
+  font-size: 12vmin;
+}
+
+p{
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5vmin;
+}
+
+.myWork{
+  text-align: center;
+}
+
+.workItems{
+  line-height: 1.5vmin;
+  padding-bottom: 3vmin;
+}
+
+.mainSection{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8vmin;
+
+}
+
+.aboutPara p{
+  font-family: Mondwest;
+  font-size: 5.5vmin;
+  text-align: left;
+  width: 70vmin;
+  padding-right: 30vmin;
+
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+li{
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5vmin;
+  list-style-position: outside;
+}
+
+.titleList{
+  font-family: NeueMachina;
+  text-decoration: underline;
+
+}
+
+.list{
+  padding-bottom: 2vmin;
+
+}
+
+.rightSide{
+  text-align: right;
+  padding-top: 5vmin;
+
+}
+
+.email{
+  font-family: NeueMachina;
+}
