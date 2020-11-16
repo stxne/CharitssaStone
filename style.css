@@ -43,6 +43,8 @@ ul{
 }
 
 h1{
+  margin: 0px;
+  padding: 0px;
   font-family: Mondwest;
   font-size: 12vmin;
 }
@@ -55,12 +57,12 @@ p{
 }
 
 .myWork{
+  padding-top: 9vmin;
   text-align: center;
 }
 
 .workItems{
-  line-height: 1.5vmin;
-  padding-bottom: 3vmin;
+  padding-bottom: 5vmin;
 }
 
 .mainSection{
@@ -115,3 +117,65 @@ li{
 .email{
   font-family: NeueMachina;
 }
+
+.pageTitle{
+
+  text-align: center;
+}
+
+.pageTitle h1{
+  font-size: 8vmin;
+}
+
+.pageTitle p{
+  font-size: 2vmin;
+}
+
+.description p{
+  font-family: 'degular',sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: justify;
+  font-size: 4vmin;
+  padding: 2vmin 10vmin 0px 10vmin;
+}
+
+
+img{
+ width: 100vmin;
+}
+
+#imagesTIGA{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 5vmin 25vmin 5vmin 25vmin;
+
+}
+
+#imagesTIGA img{
+    width: 55vmin;
+    padding-bottom: 2vmin;
+  }
+
+#imagesBP,#imagesSBC,#imagesSTH{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vmin;
+}
+
+#imagesPoster{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15vmin 15vmin 20vmin 20vmin;
+}
+
+#imagesPoster img{
+    width: 40vmin;
+    padding-right: 2vmin;
+    padding-bottom: 2vmin;
+  }
