@@ -29,7 +29,7 @@ ul{
 
 .header{
   display: flex;
-  font-family: NeueMachina;
+  font-family: 'NeueMachina';
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -45,12 +45,12 @@ ul{
 h1{
   margin: 0px;
   padding: 0px;
-  font-family: Mondwest;
+  font-family: 'Mondwest';
   font-size: 12vmin;
 }
 
 p{
-  font-family: neue-haas-unica, sans-serif;
+  font-family: 'neue-haas-unica', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 2.5vmin;
@@ -75,7 +75,7 @@ p{
 }
 
 .aboutPara p{
-  font-family: Mondwest;
+  font-family: 'Mondwest';
   font-size: 5.5vmin;
   text-align: left;
   width: 70vmin;
