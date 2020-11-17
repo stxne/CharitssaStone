@@ -24,7 +24,8 @@ ul{
 
 .title{
   font-size: 3vmin;
-  padding-right: 100vmin;
+  padding-left: 2vmin;
+
 }
 
 .header{
@@ -32,6 +33,7 @@ ul{
   font-family: 'NeueMachina';
   flex-direction: row;
   justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 2vmin 5vmin 5vmin 5vmin;
 
@@ -39,14 +41,18 @@ ul{
 
 .navLink{
   font-size: 2vmin;
-  padding-left: 4vmin
+
+}
+
+.navLink a{
+  padding-left: 3vmin;
 }
 
 h1{
   margin: 0px;
   padding: 0px;
   font-family: 'Mondwest';
-  font-size: 12vmin;
+  font-size: 13vmin;
 }
 
 p{
@@ -63,6 +69,12 @@ p{
 
 .workItems{
   padding-bottom: 5vmin;
+}
+
+.siteLink{
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 2vmin;
 }
 
 .mainSection{
@@ -191,4 +203,58 @@ footer p{
  position: absolute;
  bottom: 0;
  width: 100%;
+}
+
+@media screen and (max-width: 905px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7vmin;
+    padding-bottom: 7vmin;
+  }
+
+  .navLink{
+    padding-top: 3vmin;
+  }
+
+  .navLink{
+    font-size: 3vmin;
+  }
+
+  .title{
+    font-size: 4vmin;
+  }
+
+  .myWork{
+    padding-top: 5vmin;
+  }
+
+  .mainSection{
+    flex-wrap: wrap;
+    padding-top: 0px;
+  }
+
+  .rightSide{
+    text-align: center;
+  }
+
+  .aboutPara p{
+    text-align: center;
+    padding: 0px;
+
+  }
+
+
+  li{
+    font-size: 4vmin;
+    padding-bottom: 0px;
+  }
+
+  .email {
+    font-size: 4vmin;
+  }
+
+
+
+
 }

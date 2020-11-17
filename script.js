@@ -9,7 +9,7 @@ let jsonData = [
       {
 
         "title" : "The Idea Girl Agency",
-        "image" : "GOODBODY GOOD SOLUTIONS-HAIR PARTING_Cover 1.png",
+        "image" : "GOODBODY GOOD SOLUTIONS-HAIR PARTING_Cover 1.jpg",
         "caption" : "Social media template creted for GoodBody, creative direction and copy done by The Idea Girl.",
         "link": "https://www.instagram.com/p/CDFhcyqpeDj/?utm_source=ig_web_copy_link"
       },
@@ -17,7 +17,7 @@ let jsonData = [
       {
 
         "title" : "The Idea Girl Agency",
-        "image" : "GB HAIR-SCOPE PART 2_COVER 2-16.png",
+        "image" : "GB HAIR-SCOPE PART 2_COVER 2-16.jpg",
         "caption" : "Social media template creted for GoodBody, creative direction and copy done by The Idea Girl.",
         "link": "https://www.instagram.com/p/CDcpA4NprET/?utm_source=ig_web_copy_link"
       },
@@ -39,14 +39,14 @@ let jsonData = [
 
       {
         "title" : "The Idea Girl Agency",
-        "image" : "Taking Up Space Quote-05.png",
+        "image" : "Taking Up Space Quote-05.jpg",
         "caption" : "Motivational Quote for the studio's instagram",
         "link" : "https://www.instagram.com/p/B94ixysF8aH/?utm_source=ig_web_copy_link"
       },
 
       {
         "title" : "The Idea Girl Agency",
-        "image" : "SERIF MY TYPE_SERIF-SLIDE 1.png",
+        "image" : "SERIF MY TYPE_SERIF-SLIDE 1.jpg",
         "caption" : "#ThatMyType is a series of education post on typography",
         "link": "https://www.instagram.com/p/CAMJ0XApO4S/?utm_source=ig_web_copy_link"
       },
@@ -80,7 +80,7 @@ let jsonData = [
 
       {
         "title" : "BlackCreatives",
-        "image" : "SBC Poster.png",
+        "image" : "SBC Poster.jpg",
         "caption" : "A mockup of the website.",
         "link" : "https://stxne.github.io/SupportBlackCreatives2/"
       },
