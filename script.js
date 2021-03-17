@@ -114,25 +114,25 @@ let jsonData = [
       },
       {
         "title" : "Planted Haircare",
-        "image" : "PLANTED INSTA HIGHLIGHTS-hair #1.png",
+        "image" : "PLANTED INSTA HIGHLIGHTS-hair #1.jpg",
         "caption" : "Illustration for instagram highlights",
         "link": "#"
       },
       {
         "title" : "Planted Haircare",
-        "image" : "PLANTED INSTA HIGHLIGHTS-PRODUCTS #1.png",
+        "image" : "PLANTED INSTA HIGHLIGHTS-PRODUCTS #1.jpg",
         "caption" : "Illustration for instagram highlights",
         "link": "#"
       },
       {
         "title" : "Planted Haircare",
-        "image" : "PLANTED INSTA HIGHLIGHTS-REVIEWS #1.png",
+        "image" : "PLANTED INSTA HIGHLIGHTS-REVIEWS #1.jpg",
         "caption" : "Illustration for instagram highlights",
         "link": "#"
       },
       {
         "title" : "Planted Haircare",
-        "image" : "PLANTED INSTA HIGHLIGHTS-WASH DAY #2.png",
+        "image" : "PLANTED INSTA HIGHLIGHTS-WASH DAY #5.jpg",
         "caption" : "Illustration for instagram highlights",
         "link": "#"
       },
