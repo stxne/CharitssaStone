@@ -171,6 +171,12 @@ img{
     padding-bottom: 2vmin;
   }
 
+#imagesPlanted img{
+    width: 55vmin;
+    padding-bottom: 2vmin;
+  }
+
+
 #imagesBP,#imagesSBC,#imagesSTH{
   display: flex;
   flex-direction: column;

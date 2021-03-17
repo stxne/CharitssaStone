@@ -2,7 +2,8 @@ let tigaImagesElement = document.getElementById('imagesTIGA');
 let bpImagesElement = document.getElementById('imagesBP');
 let sbcImagesElement = document.getElementById('imagesSBC');
 let sthImagesElement = document.getElementById('imagesSTH');
-let posterImagesElement = document.getElementById('imagesPoster');
+let plantedImagesElement = document.getElementById('imagesPlanted');
+//let posterImagesElement = document.getElementById('imagesPoster');
 
 let jsonData = [
 
@@ -111,7 +112,30 @@ let jsonData = [
         "caption" : "A prototype of a mobile menu for the fictional brand.",
         "link": "#"
       },
-
+      {
+        "title" : "Planted Haircare",
+        "image" : "PLANTED INSTA HIGHLIGHTS-hair #1.png",
+        "caption" : "Illustration for instagram highlights",
+        "link": "#"
+      },
+      {
+        "title" : "Planted Haircare",
+        "image" : "PLANTED INSTA HIGHLIGHTS-PRODUCTS #1.png",
+        "caption" : "Illustration for instagram highlights",
+        "link": "#"
+      },
+      {
+        "title" : "Planted Haircare",
+        "image" : "PLANTED INSTA HIGHLIGHTS-REVIEWS #1.png",
+        "caption" : "Illustration for instagram highlights",
+        "link": "#"
+      },
+      {
+        "title" : "Planted Haircare",
+        "image" : "PLANTED INSTA HIGHLIGHTS-WASH DAY #2.png",
+        "caption" : "Illustration for instagram highlights",
+        "link": "#"
+      },
       {
         "title" : "Poster",
         "image" : "POSTER CHALLENGE DAY 1-LINES.jpg",
@@ -409,6 +433,8 @@ let jsonData = [
 
 ]
 
+
+
 function createElement(incomingJSON){
   for (let i = 0; i < incomingJSON.length; i++) {
     let newContentElement = document.createElement("DIV");
@@ -443,8 +469,11 @@ function createElement(incomingJSON){
     else if (incomingJSON[i]['title'] == 'Silver Tea' && pageName == 'STH'){
       sthImagesElement.appendChild(newContentElement);
     }
-    else if (incomingJSON[i]['title'] == 'Poster' && pageName == 'posters'){
-      posterImagesElement.appendChild(newContentElement);
+    //else if (incomingJSON[i]['title'] == 'Poster' && pageName == 'posters'){
+      //posterImagesElement.appendChild(newContentElement);
+    //}
+    else if (incomingJSON[i]['title'] == 'Planted Haircare' && pageName == 'planted'){
+      plantedImagesElement.appendChild(newContentElement);
     }
   }
 
