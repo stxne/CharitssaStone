@@ -172,7 +172,7 @@ img{
   }
 
 
-#imagesBP,#imagesSBC,#imagesSTH{
+#imagesBP,#imagesSBC,#imagesSTH,#imagesSMA{
   display: flex;
   flex-direction: column;
   justify-content: center;
