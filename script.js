@@ -4,6 +4,9 @@ var sbcImagesElement = document.getElementById('imagesSBC');
 var sthImagesElement = document.getElementById('imagesSTH');
 var posterImagesElement = document.getElementById('imagesPoster');
 var SMAImagesElement = document.getElementById('imagesSMA');
+var BTSImagesElement = document.getElementById('imagesBTS');
+var TeamLabImagesElement = document.getElementById('imagesTeamLab');
+var TokyoCityImagesElement = document.getElementById('imagesTokyoCity');
 
 var jsonData = [
 
@@ -421,7 +424,122 @@ var jsonData = [
         "image" : "POSTER CHALLENGE DAY 49-RICO NASTY REDESIGN 7.jpg",
         "caption" : "DAY 49",
         "link": "#"
+      },
+      {
+        "title" : "BeTranscendent",
+        "image" : "BTS-GIF.gif",
+        "caption" : "Social Media Mockups",
+        "link": "#"
+      },
+      {
+        "title" : "BeTranscendent",
+        "image" : "BE TRANSCENDENT SKIN-TYPE SUITE.png",
+        "caption" : "Typography",
+        "link": "#"
+      },
+      {
+        "title" : "BeTranscendent",
+        "image" : "BE TRANSCENDENT SKIN-COLOR PALETTE.png",
+        "caption" : "Brand Color Palette",
+        "link": "#"
+      },
+      {
+        "title" : "BeTranscendent",
+        "image" : "BTS PATTERNS.png",
+        "caption" : "Patterns for brand collateral",
+        "link": "#"
+      },
+      {
+        "title" : "BeTranscendent",
+        "image" : "BTS SOCIAL MEDIA TEMPLATES.png",
+        "caption" : "Social Media Templates",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLAB-LOGO-GIF.gif",
+        "caption" : "Logo Suite",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLAB-TYPE SUITE.png",
+        "caption" : "Typography",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLAB-COLOR PALETTE.png",
+        "caption" : "The Color Palette",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLAB-POSTERS1.png",
+        "caption" : "Event Poster",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLAB-MAGAZINE.png",
+        "caption" : "Event Magazine",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLAB MERCH.png",
+        "caption" : "Museum & Event Merchandise",
+        "link": "#"
+      },
+      {
+        "title" : "TeamLab Borderless",
+        "image" : "TEAMLABS-WEB-GIF2.gif",
+        "caption" : "Event & Museum Website",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City Logo.png",
+        "caption" : "Tokyo City Logo",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City-TYPE.png",
+        "caption" : "Typography",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City-Color palette.png",
+        "caption" : "Color Palette",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City-Magazine.png",
+        "caption" : "Tokyo City Magazine",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City-Brochure1.png",
+        "caption" : "Brochure Mockup",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City-Brochure2.png",
+        "caption" : "Brochure Mockup",
+        "link": "#"
+      },
+      {
+        "title" : "Tokyo City",
+        "image" : "Tokyo City-Brochure3.png",
+        "caption" : "Brochure Mockup",
+        "link": "#"
       }
+
 
     ];
 
@@ -467,6 +585,15 @@ function createElement(incomingJSON){
     }
     else if (incomingJSON[i]['title'] == 'Poster' && pageName == 'posters'){
       posterImagesElement.appendChild(newContentElement);
+    }
+    else if (incomingJSON[i]['title'] == 'BeTranscendent' && pageName == 'BTS'){
+      BTSImagesElement.appendChild(newContentElement);
+    }
+    else if (incomingJSON[i]['title'] == 'TeamLab Borderless' && pageName == 'TeamLab'){
+      TeamLabImagesElement.appendChild(newContentElement);
+    }
+    else if (incomingJSON[i]['title'] == 'Tokyo City' && pageName == 'TokyoCity'){
+      TokyoCityImagesElement.appendChild(newContentElement);
     }
     //else if (incomingJSON[i]['title'] == 'Planted Haircare' && pageName == 'planted'){
       //plantedImagesElement.appendChild(newContentElement);

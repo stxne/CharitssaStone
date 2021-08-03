@@ -172,7 +172,7 @@ img{
   }
 
 
-#imagesBP,#imagesSBC,#imagesSTH,#imagesSMA{
+#imagesBP,#imagesSBC,#imagesSTH,#imagesSMA, #imagesBTS, #imagesTeamLab, #imagesTokyoCity{
   display: flex;
   flex-direction: column;
   justify-content: center;
